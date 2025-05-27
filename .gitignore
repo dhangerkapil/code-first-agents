@@ -1,23 +1,39 @@
-__pycache__
-*.py[co]
-[.][v]env/
-.DS_Store
-.ruff_cache
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 .env
-.coverage
-*.orig
-# .NET stuff
-bin
-obj
-appsettings.*.json
-*.csproj.user
-.mono
-*.user
-.vs
+.venv
+env/
+venv/
+ENV/
 
-# AZD
-.azure/
-.files/
-src/workshop/[.][v]env/
+# VS Code
+.vscode/
+*.code-workspace
 
-/src/shared/files
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development
+*.log
+.DS_Store
